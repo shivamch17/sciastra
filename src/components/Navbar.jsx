@@ -7,7 +7,7 @@ export const Navbar = () => {
       className="flex items-center justify-center px-4 lg:px-6 xl:px-8"
     >
       <img
-        className="w-20 h-20 object-contain rounded-full"
+        className="w-16 h-16 object-contain rounded-full"
         src="https://www.sciastra.com/Assets/Images/newsciastra.jpg"
         alt=""
       />

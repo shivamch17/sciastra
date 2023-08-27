@@ -14,7 +14,7 @@ const MentorList = () => {
       <div className="m-5">
         {mentorRows.map((row, rowIndex) => (
           <React.Fragment key={rowIndex}>
-            <h2 className="text-lg text-left my-4 font-semibold sub p-5">{subjects[rowIndex]}</h2>
+            <h2 className="text-lg text-left my-4 font-semibold sub p-4">{subjects[rowIndex]}</h2>
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-4">
               {row.map((person, index) => (
                 <MentorCard

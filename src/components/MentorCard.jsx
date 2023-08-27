@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const MentorCard = (props) => {
   return (
-    <div className="max-w-sm mx-8 p-4 flex flex-col justify-between">
+    <div className="max-w-sm p-4 flex flex-col justify-between">
       <div className="rounded-full overflow-hidden h-28 w-28 mx-auto mb-2 flex-shrink-0">
         <img
           src={props.imageSrc}
