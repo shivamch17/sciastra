@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const AdvisorCard = (props) => {
   return (
-    <div className="max-w-xs rounded-3xl shadow-2xl mx-8 p-4 flex flex-col justify-between">
+    <div className="max-w-xs mt-6 rounded-3xl mx-8 p-4 flex flex-col justify-between" style={{boxShadow: 'rgba(99, 99, 99, 0.2) 2px 2px 8px 3px'}}>
       <div className="rounded-full overflow-hidden mx-auto mb-2 flex-shrink-0">
         <img
           src={props.imageSrc}

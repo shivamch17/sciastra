@@ -53,7 +53,7 @@ export const advisors = [
     {
       name: "Dr. Omkar",
       gender: "male",
-      description: "Principal Project Scientist at IIT Madras"
+      description: "Principal Project Scientist at Indian Institute of Technology Madras (IIT Madras)"
     },
     {
       name: "Vivek Dwivedi",
