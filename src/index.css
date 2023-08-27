@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
+
+.heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-contact{
+    background: linear-gradient(90deg, rgba(83, 0, 255, 1) 0%, rgba(231, 172, 204, 1) 100%);
+}
+.heading{
+    background: linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #234EB0;
+    font-size: 3.1rem;
+    font-weight: 700;
+    width: 90vw;
+}
+.teams{
+    background: linear-gradient(97.13deg, #9CBAF7 2.78%, #9010B0 97.22%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 3px solid rgb(88, 4, 166);
+    border-radius: 3px;
+}
+.heading1{
+    background: linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #234EB0;
+    font-size: 2.3rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.sub{
+    color: #234EB0;
+    font-size: 1.9rem;
+}
+.footer{
+    background: url('https://files.sciastra.com/footermain.jpg');
+}
